@@ -54097,7 +54097,7 @@ A.a4l.prototype={
 $0(){A.p7(A.jZ("http://github.com/greenfire11/medi_track",0,null))},
 $S:0}
 A.AO.prototype={
-N(a){return new A.rl(B.DE,"Flutter Demo",A.a9S(null,B.dz,null),!1,null)}}
+N(a){return new A.rl(B.DE,"Portfolio",A.a9S(null,B.dz,null),!1,null)}}
 A.rx.prototype={
 aj(){return new A.GD(B.l)}}
 A.GD.prototype={
