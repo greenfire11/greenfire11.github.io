@@ -54109,7 +54109,7 @@ s=A.bj(B.cQ,A.c_("MOBILE APPS",A.ct(r,r,B.Dp,r,r,r,r,r,r,r,r,13,r,r,r,r,r,!0,r,r
 m=A.bj(B.cQ,A.f5(A.a([m,s,o?new A.Kx(r):new A.Kw(r)],k),B.ap,B.C),r,r,r,r,new A.al(0,50,0,0),r)
 return new A.tu(new A.D3(A.f5(A.a([n,l,m,A.bj(r,o?new A.KJ(r):new A.KI(r),r,r,r,r,r,r)],k),B.bv,B.CX),r),r)}}
 A.a1c.prototype={
-$0(){A.ma(A.iv("assets/JafarCV_FR.pdf",0,null))
+$0(){A.ma(A.iv("https://github.com/greenfire11/greenfire11.github.io/raw/main/assets/assets/JafarCV_FR.pdf",0,null))
 A.mc(this.a)},
 $S:0}
 A.An.prototype={
