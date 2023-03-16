@@ -1,0 +1,251 @@
+/* navbar */
+
+body {
+  text-align: left;
+}
+#header {
+  background-color: #2196f3;
+  padding-top: 3rem;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 1110;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1rem;
+}
+
+
+/* header */
+.personal-profile__avatar img {
+  border-radius: 15px;
+  box-shadow: 0 0 27px rgba(96, 96, 96, 0.34);
+  width: 90%;
+  height: 380px;
+  object-fit: cover;
+  margin-top: 10px;
+  position: relative;
+  top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .personal-profile__avatar {
+    display: none;
+  }
+}
+
+.personal-profile__name {
+  font-size: 44px;
+  line-height: 50px;
+  font-weight: 700;
+  margin-top: 40px;
+  font-family: 'Montserrat';
+}
+
+.personal-profile__work {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 40px;
+  font-family: 'Montserrat';
+}
+
+.personal-profile__contacts {
+  margin-bottom: 40px;
+}
+
+.contact-list{
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+  font-family: 'Montserrat',monospace;
+}
+dt {
+  opacity: 0.8;
+  float: left;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+dd{
+  padding-left: 120px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-family: 'Ubuntu';
+}
+
+.contact-list dd a {
+  color: black;
+}
+
+.personal-profile__social {
+  margin-bottom: 35px;
+}
+
+.ri {
+  font-size: 48px;
+  color: black;
+}
+
+.personal-profile__social a:link {
+  text-decoration: none;
+}
+
+.personal-profile__social a:visited {
+  text-decoration: none;
+}
+
+.personal-profile__social a:hover {
+  text-decoration: none;
+}
+
+.personal-profile__social a:active {
+  text-decoration: none;
+}
+
+.ri:hover {
+  color: rgb(42, 41, 41);
+}
+
+
+/* about me */
+
+#about-me {
+  padding: 60px 15px;
+}
+
+.section__title {
+  margin-bottom: 40px;
+}
+
+.section__description {
+  margin-bottom: 30px;
+}
+
+.section_btn {
+background-color: #2196f3;
+border-radius: 25px;
+font-size: 14px;
+line-height: 20px;
+text-transform: uppercase;
+padding: 15px;
+min-width: 170px;
+text-align: center;
+display: inline-block;
+color: #fff;
+font-weight: 600;
+overflow: hidden;
+}
+.site-btn span {
+  height: 14px;
+  margin-top: -5px;
+  margin-right: 5px;
+
+}
+
+.ri-dl {
+  font-size: 17px;
+}
+
+
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: 0px;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+
+
+/* projects */
+
+#portfolio {
+  padding: 60px 15px;
+}
+.project-card {
+  margin-bottom: 40px;
+}
+.project-card__img {
+  padding: 0;
+}
+.project-card__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-card__info {
+  border: 1px solid #f1f1f1;
+  padding: 50px 50px 40px 30px;
+}
+
+.project-card__title {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Roboto Mono, monospace;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.project-card__description {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 45px;
+}
+
+.project-card__stack {
+  font-family: Roboto Mono, monospace;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.tags li {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.14);
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+ol, ul {
+  padding: 0;
+  list-style: none;
+}
+
+.project-card .project-card__link {
+  margin-top: 20px;
+  font-family: Roboto Mono, monospace;
+  font-size: 14px;
+  line-height: 20px;
+  float: right;
+} 
+
+.project-card:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+
+/* footer */
+
+
+.footer {
+  font-size: 20px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2196f3;
+  text-align: center;
+}
